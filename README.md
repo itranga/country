@@ -1,1 +1,1 @@
-Country List APP 
+Country List APP  - next.js typescript graphql [ Prisma - https://www.prisma.io/ ]
