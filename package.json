@@ -28,7 +28,7 @@
         "seed": "ts-node prisma/seed.ts"
     },
     "scripts": {
-        "build": "prisma generate  && next build && tsc",
+        "build": "next build && tsc",
         "deploy": "prisma migrate deploy",
         "dev": "prisma generate && concurrently \"npm run server-dev\" \"npm run watch-queries\"",
         "format": "prisma format &&  prettier --write . && eslint --fix .",
