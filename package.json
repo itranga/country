@@ -36,7 +36,7 @@
         "generate-types": "graphql-codegen --config codegen.yml",
         "lint": "next lint",
         "migrate": "prisma migrate dev",
-        "postinstall": "prisma generate",
+        "postinstall": "npx prisma generate",
         "prisma": "prisma format && npm run migrate && npm run seed",
         "quality": "npm install --silent && npm run type-check && npm run lint && npm run test",
         "reset": "prisma migrate reset",
